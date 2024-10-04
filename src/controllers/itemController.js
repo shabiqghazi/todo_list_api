@@ -44,7 +44,6 @@ exports.getItems = async (req, res) => {
 };
 exports.getItem = async (req, res) => {
     try {
-        console.log("test", req.params)
         const item = await Item.findOne({
         where: { ChecklistId: req.params.checklistId, id: req.params.itemId },
         include: [{

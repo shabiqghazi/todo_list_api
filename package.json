@@ -9,7 +9,7 @@
   },
   "author": "shabiqghazi",
   "license": "ISC",
-  "description": "",
+  "description": "This is a RESTful API built to manage checklists and their associated items, allowing users to authenticate, create, update, and delete both checklists and items within them.",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "dotenv": "^16.4.5",
